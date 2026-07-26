@@ -585,7 +585,7 @@ a {
 
 .story-button {
     width: fit-content;
-    margin-top: 26px;
+    margin: 30px auto 0;
     padding: 14px 30px;
     display: flex;
     flex-direction: column;

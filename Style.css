@@ -663,23 +663,11 @@ html {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background:
-        linear-gradient(
-            rgba(255, 250, 242, 0.82),
-            rgba(255, 250, 242, 0.90)
-        ),
-        url("assets/IMG_7998.jpeg") center / cover no-repeat;
+    background: #fffaf2;
 }
 
-.about-hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 250, 242, 0.10),
-        rgba(255, 250, 242, 0.45),
-        rgba(255, 250, 242, 0.10)
-    );
+.about-hero-overlay{
+    display:none;
 }
 
 .about-hero-content {

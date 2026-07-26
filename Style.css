@@ -521,7 +521,9 @@ a {
 }
 
 .story-content {
-    max-width: 580px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .section-label {
@@ -552,7 +554,7 @@ a {
 
 .story-divider {
     width: 210px;
-    margin: 28px 0;
+    margin: 28px auto;
     display: flex;
     align-items: center;
     gap: 12px;

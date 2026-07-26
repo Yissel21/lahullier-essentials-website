@@ -498,14 +498,14 @@ a {
 }
 
 .story-container {
-    width: min(1200px, 100%);
+    width: min(850px, 100%);
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-    gap: 70px;
+    gap: 40px;
+    text-align: center;
 }
-
 .story-image {
     overflow: hidden;
     border-radius: 6px;

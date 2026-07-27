@@ -1397,3 +1397,19 @@ html {
     color:#b08d57;
     margin-bottom:18px;
 }
+.brandbook-cover-section{
+    width:100%;
+    padding:0;
+    margin:0;
+    background:#fffaf2;
+    display:flex;
+    justify-content:center;
+}
+
+.brandbook-cover-image{
+    display:block;
+    width:100%;
+    max-width:1600px;
+    height:auto;
+    margin:0 auto;
+}

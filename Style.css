@@ -1285,8 +1285,17 @@ html {
     background:#ffffff;
 }
 
+.founder-image{
+    display:flex;
+    justify-content:center;
+}
+
 .founder-image img{
     width:100%;
+    max-width:520px;
+    height:650px;
+    object-fit:cover;
+    object-position:center top;
     border-radius:24px;
     box-shadow:0 25px 60px rgba(0,0,0,.12);
 }
@@ -1315,8 +1324,28 @@ html {
 
 @media(max-width:900px){
 
-.founder-section{
-    grid-template-columns:1fr;
+    .founder-section{
+        grid-template-columns:1fr;
+        gap:45px;
+        padding:70px 24px;
+    }
+
+    .founder-image img{
+        max-width:420px;
+        height:520px;
+    }
+
+    .founder-text{
+        text-align:center;
+    }
+
+    .founder-text h2{
+        font-size:38px;
+    }
+
+    .founder-text p{
+        font-size:18px;
+    }
 }
 
 .founder-text{

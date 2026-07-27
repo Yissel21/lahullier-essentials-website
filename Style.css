@@ -1426,3 +1426,128 @@ html {
     margin-top:-8px;
     margin-bottom:28px;
 }
+/* ===== A Letter to My Children ===== */
+
+.children-letter-section{
+    padding:120px 8%;
+    background:linear-gradient(
+        180deg,
+        #fffaf2 0%,
+        #ffffff 45%,
+        #fffaf2 100%
+    );
+}
+
+.children-letter-intro{
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:0.9fr 1.1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.children-letter-photo-wrap{
+    display:flex;
+    justify-content:center;
+}
+
+.children-letter-photo{
+    display:block;
+    width:100%;
+    max-width:470px;
+    border-radius:28px;
+    box-shadow:0 30px 70px rgba(31,41,55,.14);
+}
+
+.children-letter-heading{
+    max-width:600px;
+}
+
+.children-letter-kicker{
+    color:#b08d57;
+    letter-spacing:5px;
+    font-size:14px;
+    text-transform:uppercase;
+    margin-bottom:18px;
+}
+
+.children-letter-heading h2{
+    color:#1f2937;
+    font-size:56px;
+    line-height:1.12;
+    margin-bottom:18px;
+}
+
+.children-letter-title-spanish{
+    color:#b08d57;
+    font-size:28px;
+    line-height:1.5;
+    font-style:italic;
+    margin-bottom:30px;
+}
+
+.children-letter-copy{
+    color:#6b7280;
+    font-size:19px;
+    line-height:1.9;
+    margin-bottom:18px;
+}
+
+.children-letter-copy-spanish{
+    color:#b08d57;
+    font-style:italic;
+}
+
+.children-letter-card{
+    max-width:1050px;
+    margin:90px auto 0;
+    padding:20px;
+    background:#ffffff;
+    border:1px solid rgba(176,141,87,.25);
+    border-radius:30px;
+    box-shadow:0 30px 80px rgba(31,41,55,.12);
+}
+
+.children-letter-image{
+    display:block;
+    width:100%;
+    height:auto;
+    border-radius:20px;
+}
+
+@media(max-width:900px){
+
+    .children-letter-section{
+        padding:80px 24px;
+    }
+
+    .children-letter-intro{
+        grid-template-columns:1fr;
+        gap:50px;
+    }
+
+    .children-letter-heading{
+        max-width:700px;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    .children-letter-heading h2{
+        font-size:42px;
+    }
+
+    .children-letter-title-spanish{
+        font-size:24px;
+    }
+
+    .children-letter-card{
+        margin-top:60px;
+        padding:10px;
+        border-radius:20px;
+    }
+
+    .children-letter-image{
+        border-radius:14px;
+    }
+}

@@ -1413,3 +1413,12 @@ html {
     height:auto;
     margin:0 auto;
 }
+/* Spanish text in gold */
+.founder-text p.founder-spanish{
+    color:#b08d57 !important;
+    font-style:italic;
+    font-size:18px;
+    line-height:1.9;
+    margin-top:-8px;
+    margin-bottom:28px;
+}

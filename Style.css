@@ -1397,21 +1397,25 @@ html {
     color:#b08d57;
     margin-bottom:18px;
 }
+/* ===== Brand Book Full Width Cover ===== */
+
 .brandbook-cover-section{
-    width:100%;
-    padding:0;
+    width:100vw;
+    max-width:none;
     margin:0;
+    margin-left:calc(50% - 50vw);
+    padding:0;
     background:#fffaf2;
-    display:flex;
-    justify-content:center;
+    overflow:hidden;
 }
 
 .brandbook-cover-image{
     display:block;
-    width:100%;
-    max-width:1600px;
+    width:100vw;
+    max-width:none;
     height:auto;
-    margin:0 auto;
+    margin:0;
+    padding:0;
 }
 /* Spanish text in gold */
 .founder-text p.founder-spanish{

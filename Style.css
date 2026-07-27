@@ -1213,3 +1213,64 @@ html {
     }
 
 }
+/* ==========================
+   BRAND BOOK
+========================== */
+
+.brandbook-hero{
+    background:#fffaf2;
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:100px 30px;
+    position:relative;
+}
+
+.brandbook-overlay{
+    display:none;
+}
+
+.brandbook-content{
+    max-width:850px;
+}
+
+.brandbook-small{
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:#b08d57;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.brandbook-hero h1{
+    font-size:72px;
+    font-weight:300;
+    color:#1f2937;
+    margin-bottom:25px;
+}
+
+.brandbook-subtitle{
+    font-size:22px;
+    line-height:1.8;
+    color:#6b7280;
+    max-width:700px;
+    margin:auto;
+}
+
+@media (max-width:768px){
+
+.brandbook-hero{
+    padding:80px 25px;
+}
+
+.brandbook-hero h1{
+    font-size:48px;
+}
+
+.brandbook-subtitle{
+    font-size:18px;
+}
+
+}

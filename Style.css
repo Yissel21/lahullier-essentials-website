@@ -1354,12 +1354,12 @@ html {
 
 }
 .founder-spanish{
-    font-style: italic;
-    color: #8b8d57;
-    font-size: 18px;
-    line-height: 1.8;
-    margin-top: -10px;
-    margin-bottom: 30px;
+    color:#b08d57;
+    font-style:italic;
+    font-size:18px;
+    line-height:1.9;
+    margin-top:-8px;
+    margin-bottom:28px;
 }
 .founder-text{
     max-width:600px;

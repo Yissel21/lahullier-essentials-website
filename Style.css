@@ -1551,3 +1551,17 @@ html {
         border-radius:14px;
     }
 }
+/* ===== Home link to About Us ===== */
+
+.home-about-link{
+    width:100%;
+    padding:55px 24px;
+    text-align:center;
+    background:#fffaf2;
+}
+
+.home-about-link .story-button{
+    display:inline-block;
+    padding:15px 34px;
+    text-decoration:none;
+}

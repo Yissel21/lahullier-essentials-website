@@ -1973,3 +1973,221 @@ html {
     </p>
 
 </section>
+/* ==================================
+   LAHULLIER JOURNAL
+================================== */
+
+.journal-hero{
+    padding:120px 25px 95px;
+    text-align:center;
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(176,141,87,.10),
+            transparent 35%
+        ),
+        #fffaf2;
+}
+
+.journal-label{
+    color:#b08d57;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-size:13px;
+    letter-spacing:5px;
+    margin-bottom:22px;
+}
+
+.journal-hero h1{
+    color:#1b2f5d;
+    font-family:"Playfair Display", Georgia, serif;
+    font-size:66px;
+    line-height:1.1;
+    margin-bottom:12px;
+}
+
+.journal-title-spanish{
+    color:#b08d57;
+    font-family:"Lora", Georgia, serif;
+    font-size:27px;
+    font-style:italic;
+    margin-bottom:25px;
+}
+
+.journal-divider{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    margin:25px auto 30px;
+}
+
+.journal-divider span:not(.journal-heart){
+    display:block;
+    width:65px;
+    height:1px;
+    background:#b08d57;
+}
+
+.journal-heart{
+    color:#b08d57;
+    font-size:16px;
+}
+
+.journal-intro{
+    max-width:760px;
+    margin:10px auto;
+    color:#4b4b4b;
+    font-size:19px;
+    line-height:1.8;
+}
+
+.journal-spanish{
+    color:#b08d57 !important;
+    font-style:italic;
+}
+
+.journal-posts{
+    max-width:1200px;
+    margin:0 auto;
+    padding:90px 30px 110px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:28px;
+}
+
+.journal-card{
+    position:relative;
+    padding:45px 35px;
+    background:#fffdf9;
+    border:1px solid rgba(176,141,87,.28);
+    border-radius:24px;
+    box-shadow:0 20px 50px rgba(27,47,93,.06);
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.journal-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 25px 60px rgba(27,47,93,.10);
+}
+
+.journal-card-number{
+    display:block;
+    color:rgba(176,141,87,.65);
+    font-family:"Playfair Display", Georgia, serif;
+    font-size:42px;
+    margin-bottom:24px;
+}
+
+.journal-category{
+    color:#b08d57 !important;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-size:11px !important;
+    letter-spacing:2px;
+    margin-bottom:18px !important;
+}
+
+.journal-card h2{
+    color:#1b2f5d;
+    font-family:"Playfair Display", Georgia, serif;
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:9px;
+}
+
+.journal-card h3{
+    color:#b08d57;
+    font-family:"Lora", Georgia, serif;
+    font-size:19px;
+    font-weight:400;
+    font-style:italic;
+    line-height:1.4;
+    margin-bottom:25px;
+}
+
+.journal-card p{
+    color:#4b4b4b;
+    font-size:16px;
+    line-height:1.75;
+    margin-bottom:15px;
+}
+
+.journal-coming-soon{
+    display:inline-block;
+    margin-top:22px;
+    padding-top:14px;
+    border-top:1px solid rgba(176,141,87,.30);
+    color:#1b2f5d;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+.journal-closing{
+    padding:85px 25px;
+    text-align:center;
+    background:#1b2f5d;
+}
+
+.journal-closing-heart{
+    display:block;
+    color:#c89b5b;
+    font-size:22px;
+    margin-bottom:22px;
+}
+
+.journal-closing blockquote{
+    max-width:800px;
+    margin:0 auto 18px;
+    color:#ffffff;
+    font-family:"Playfair Display", Georgia, serif;
+    font-size:30px;
+    line-height:1.5;
+}
+
+.journal-closing p{
+    max-width:760px;
+    margin:0 auto;
+    color:#d8b57b;
+    font-family:"Lora", Georgia, serif;
+    font-size:20px;
+    line-height:1.6;
+    font-style:italic;
+}
+
+@media(max-width:900px){
+
+    .journal-hero{
+        padding:85px 20px 70px;
+    }
+
+    .journal-hero h1{
+        font-size:48px;
+    }
+
+    .journal-title-spanish{
+        font-size:23px;
+    }
+
+    .journal-posts{
+        grid-template-columns:1fr;
+        padding:60px 20px 80px;
+    }
+
+    .journal-card{
+        max-width:650px;
+        width:100%;
+        margin:0 auto;
+    }
+
+    .journal-closing{
+        padding:65px 22px;
+    }
+
+    .journal-closing blockquote{
+        font-size:25px;
+    }
+
+    .journal-closing p{
+        font-size:18px;
+    }
+}

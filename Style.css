@@ -2220,3 +2220,26 @@ html {
     background-position:center center !important;
     background-repeat:no-repeat !important;
 }
+/* ===== ABOUT US HERO BACKGROUND ===== */
+
+.about-hero{
+    min-height:560px !important;
+
+    background-image:
+        linear-gradient(
+            rgba(255,250,242,.58),
+            rgba(255,250,242,.58)
+        ),
+        url("assets/E6350913-1B7F-41DA-BFEE-8A79011E0CDF.png") !important;
+
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+}
+
+@media(max-width:768px){
+    .about-hero{
+        min-height:520px !important;
+        background-position:center center !important;
+    }
+}

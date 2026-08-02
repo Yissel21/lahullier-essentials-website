@@ -1978,15 +1978,23 @@ html {
 ================================== */
 
 .journal-hero{
+    min-height:520px;
     padding:120px 25px 95px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     text-align:center;
+
     background:
-        radial-gradient(
-            circle at top left,
-            rgba(176,141,87,.10),
-            transparent 35%
+        linear-gradient(
+            rgba(255,248,238,.76),
+            rgba(255,248,238,.76)
         ),
-        #fffaf2;
+        url("assets/96C91E48-C7AE-42BD-9554-2911812211AD.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .journal-label{

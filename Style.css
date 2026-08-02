@@ -1570,9 +1570,23 @@ html {
 ================================== */
 
 .brand-guide-hero{
+    min-height:420px;
     padding:110px 24px 85px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     text-align:center;
-    background:#fff8ee;
+
+    background:
+        linear-gradient(
+            rgba(255,248,238,.62),
+            rgba(255,248,238,.62)
+        ),
+        url("assets/6668B64A-D140-481F-A679-AC1ED1369410.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .brand-guide-label{

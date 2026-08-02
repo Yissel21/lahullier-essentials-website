@@ -1806,3 +1806,156 @@ html {
         height:52px;
     }
 }
+<!-- ===== LAHULLIER JOURNAL ===== -->
+
+<section class="journal-hero">
+
+    <p class="journal-label">
+        THE LAHULLIER JOURNAL
+    </p>
+
+    <h1>
+        Stories with Meaning
+    </h1>
+
+    <p class="journal-title-spanish">
+        Historias con significado
+    </p>
+
+    <div class="journal-divider">
+        <span></span>
+        <span class="journal-heart">♥</span>
+        <span></span>
+    </div>
+
+    <p class="journal-intro">
+        A space for family, inspiration, meaningful moments
+        and the journey of building a dream with purpose.
+    </p>
+
+    <p class="journal-intro journal-spanish">
+        Un espacio para la familia, la inspiración, los momentos
+        significativos y el camino de construir un sueño con propósito.
+    </p>
+
+</section>
+
+
+<section class="journal-posts">
+
+    <article class="journal-card">
+
+        <span class="journal-card-number">01</span>
+
+        <p class="journal-category">
+            OUR JOURNEY · NUESTRO CAMINO
+        </p>
+
+        <h2>
+            A Dream in Progress
+        </h2>
+
+        <h3>
+            Un sueño en construcción
+        </h3>
+
+        <p>
+            Every meaningful journey begins with a dream,
+            courage and the decision to keep moving forward.
+        </p>
+
+        <p class="journal-spanish">
+            Todo camino con significado comienza con un sueño,
+            valentía y la decisión de continuar avanzando.
+        </p>
+
+        <span class="journal-coming-soon">
+            Coming Soon · Próximamente
+        </span>
+
+    </article>
+
+
+    <article class="journal-card">
+
+        <span class="journal-card-number">02</span>
+
+        <p class="journal-category">
+            FAMILY · FAMILIA
+        </p>
+
+        <h2>
+            The Beauty of Everyday Moments
+        </h2>
+
+        <h3>
+            La belleza de los momentos cotidianos
+        </h3>
+
+        <p>
+            The most meaningful memories are often created
+            in the smallest and simplest moments of family life.
+        </p>
+
+        <p class="journal-spanish">
+            Los recuerdos más importantes muchas veces nacen
+            en los momentos más pequeños y sencillos de la vida familiar.
+        </p>
+
+        <span class="journal-coming-soon">
+            Coming Soon · Próximamente
+        </span>
+
+    </article>
+
+
+    <article class="journal-card">
+
+        <span class="journal-card-number">03</span>
+
+        <p class="journal-category">
+            PURPOSE · PROPÓSITO
+        </p>
+
+        <h2>
+            Building Something Meaningful
+        </h2>
+
+        <h3>
+            Construyendo algo significativo
+        </h3>
+
+        <p>
+            A reflection on faith, discipline, family
+            and the purpose behind Lahullier Essentials.
+        </p>
+
+        <p class="journal-spanish">
+            Una reflexión sobre la fe, la disciplina, la familia
+            y el propósito que inspira a Lahullier Essentials.
+        </p>
+
+        <span class="journal-coming-soon">
+            Coming Soon · Próximamente
+        </span>
+
+    </article>
+
+</section>
+
+
+<section class="journal-closing">
+
+    <span class="journal-closing-heart">
+        ♥
+    </span>
+
+    <blockquote>
+        “The most beautiful stories are built one meaningful moment at a time.”
+    </blockquote>
+
+    <p>
+        “Las historias más bonitas se construyen un momento significativo a la vez.”
+    </p>
+
+</section>

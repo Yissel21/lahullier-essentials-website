@@ -2199,3 +2199,24 @@ html {
         font-size:18px;
     }
 }
+/* ===== FORCE BLOG HERO BACKGROUND ===== */
+
+.journal-hero{
+    min-height:520px !important;
+    padding:120px 25px 95px !important;
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    text-align:center !important;
+
+    background-image:
+        linear-gradient(
+            rgba(255,248,238,.48),
+            rgba(255,248,238,.48)
+        ),
+        url("assets/96C91E48-C7AE-42BD-9554-2911812211AD.png") !important;
+
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+}

@@ -2447,3 +2447,333 @@ html {
         overflow-wrap:anywhere;
     }
 }
+/* ===== SHOP PAGE ===== */
+
+.shop-page{
+    width:100%;
+    background:#fffaf2;
+    color:#263650;
+}
+
+/* PORTADA DE SHOP */
+
+.shop-hero{
+    min-height:570px;
+    padding:110px 28px 100px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(176,141,87,.18),
+            transparent 38%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            rgba(27,47,93,.10),
+            transparent 40%
+        ),
+        linear-gradient(
+            135deg,
+            #fffaf2 0%,
+            #f7ecdc 52%,
+            #fffdf8 100%
+        );
+
+    border-bottom:1px solid rgba(176,141,87,.28);
+}
+
+.shop-label{
+    margin:0 0 20px;
+    font-family:"Montserrat", sans-serif;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:4px;
+    color:#b08d57;
+}
+
+.shop-hero h1{
+    max-width:850px;
+    margin:0;
+
+    font-family:"Playfair Display", serif;
+    font-size:60px;
+    font-weight:500;
+    line-height:1.12;
+    color:#1b2f5d;
+}
+
+.shop-title-spanish{
+    max-width:750px;
+    margin:17px 0 0;
+
+    font-family:"Lora", serif;
+    font-size:22px;
+    font-style:italic;
+    line-height:1.5;
+    color:#9a7441;
+}
+
+.shop-divider{
+    width:180px;
+    margin:28px auto;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:13px;
+}
+
+.shop-divider span:not(.shop-heart){
+    width:60px;
+    height:1px;
+    background:#b08d57;
+}
+
+.shop-heart{
+    font-size:13px;
+    color:#b08d57;
+}
+
+.shop-intro{
+    max-width:700px;
+    margin:0 auto 12px;
+
+    font-family:"Lora", serif;
+    font-size:17px;
+    line-height:1.8;
+    color:#34425a;
+}
+
+.shop-spanish{
+    font-style:italic;
+    color:#8b704d;
+}
+
+/* SECCIÓN DE COLECCIONES */
+
+.shop-preview{
+    padding:95px 40px 105px;
+    text-align:center;
+    background:#fffdf8;
+}
+
+.shop-section-label{
+    margin:0 0 18px;
+
+    font-family:"Montserrat", sans-serif;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:3px;
+    color:#b08d57;
+}
+
+.shop-preview h2{
+    margin:0;
+
+    font-family:"Playfair Display", serif;
+    font-size:48px;
+    font-weight:500;
+    color:#1b2f5d;
+}
+
+.shop-section-spanish{
+    margin:10px 0 55px;
+
+    font-family:"Lora", serif;
+    font-size:19px;
+    font-style:italic;
+    color:#9a7441;
+}
+
+/* TARJETAS */
+
+.shop-grid{
+    width:100%;
+    max-width:1180px;
+    margin:0 auto;
+
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:28px;
+}
+
+.shop-card{
+    min-height:425px;
+    padding:42px 34px;
+
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+
+    background:#ffffff;
+    border:1px solid rgba(176,141,87,.30);
+    border-bottom:4px solid #b08d57;
+    box-shadow:0 15px 35px rgba(27,47,93,.09);
+
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.shop-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 22px 45px rgba(27,47,93,.15);
+}
+
+.shop-card-number{
+    margin-bottom:24px;
+
+    font-family:"Playfair Display", serif;
+    font-size:31px;
+    color:#b08d57;
+}
+
+.shop-card h3{
+    margin:0 0 8px;
+
+    font-family:"Playfair Display", serif;
+    font-size:29px;
+    font-weight:500;
+    line-height:1.2;
+    color:#1b2f5d;
+}
+
+.shop-card h4{
+    margin:0 0 25px;
+
+    font-family:"Lora", serif;
+    font-size:17px;
+    font-weight:400;
+    font-style:italic;
+    color:#9a7441;
+}
+
+.shop-card p{
+    margin:0 0 15px;
+
+    font-family:"Lora", serif;
+    font-size:15px;
+    line-height:1.75;
+    color:#39465b;
+}
+
+.shop-coming-soon{
+    display:inline-block;
+    align-self:flex-start;
+
+    margin-top:auto;
+    padding-top:25px;
+
+    font-family:"Montserrat", sans-serif;
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:1.6px;
+    color:#b08d57;
+}
+
+/* CIERRE DE SHOP */
+
+.shop-closing{
+    padding:90px 25px;
+    text-align:center;
+    background:#1b4275;
+    color:#ffffff;
+}
+
+.shop-closing-heart{
+    display:block;
+    margin-bottom:24px;
+    font-size:18px;
+    color:#d1ad70;
+}
+
+.shop-closing blockquote{
+    max-width:900px;
+    margin:0 auto 22px;
+
+    font-family:"Playfair Display", serif;
+    font-size:43px;
+    font-weight:400;
+    line-height:1.35;
+    color:#ffffff;
+}
+
+.shop-closing p{
+    margin:0;
+
+    font-family:"Lora", serif;
+    font-size:17px;
+    font-style:italic;
+    color:#e4cda9;
+}
+
+/* SHOP EN TELÉFONOS Y TABLETAS */
+
+@media(max-width:900px){
+
+    .shop-grid{
+        grid-template-columns:1fr;
+        max-width:620px;
+    }
+
+    .shop-card{
+        min-height:auto;
+    }
+}
+
+@media(max-width:768px){
+
+    .shop-hero{
+        min-height:520px;
+        padding:85px 22px 80px;
+    }
+
+    .shop-hero h1{
+        font-size:43px;
+    }
+
+    .shop-title-spanish{
+        font-size:19px;
+    }
+
+    .shop-intro{
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    .shop-preview{
+        padding:75px 20px 85px;
+    }
+
+    .shop-preview h2{
+        font-size:38px;
+    }
+
+    .shop-section-spanish{
+        margin-bottom:42px;
+    }
+
+    .shop-card{
+        padding:36px 27px;
+    }
+
+    .shop-card h3{
+        font-size:27px;
+    }
+
+    .shop-closing{
+        padding:75px 22px;
+    }
+
+    .shop-closing blockquote{
+        font-size:32px;
+    }
+
+    .shop-closing p{
+        font-size:15px;
+    }
+}

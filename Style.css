@@ -2777,3 +2777,24 @@ html {
         font-size:15px;
     }
 }
+/* ===== SHOP HERO BACKGROUND IMAGE ===== */
+
+.shop-hero{
+    background-image:
+        linear-gradient(
+            rgba(255,250,242,.28),
+            rgba(255,250,242,.28)
+        ),
+        url("assets/6029200A-1F6E-4AF1-BDAC-0B0F8519E42A.png") !important;
+
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+}
+
+.shop-hero h1,
+.shop-hero .shop-label,
+.shop-hero .shop-title-spanish,
+.shop-hero .shop-intro{
+    text-shadow:0 2px 12px rgba(255,255,255,.85);
+}

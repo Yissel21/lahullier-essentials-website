@@ -2955,3 +2955,17 @@ html {
         font-size:14px;
     }
 }
+/* ===== LANGUAGE MENU LABEL ===== */
+
+.language-menu{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.language-label{
+    font-family:"Lora", serif;
+    font-size:15px;
+    color:#1b2f5d;
+    white-space:nowrap;
+}
